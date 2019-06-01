@@ -1,5 +1,6 @@
 module.exports = {
-    baseUrl:'http://rejaurrahman.co.uk/projects/external-links-helper/',
+    // baseUrl:'http://rejaurrahman.co.uk/projects/external-links-helper/',
+    baseUrl:'/',
     pages: {
         index: {
             entry: 'src/main.js', //entry for the public page
