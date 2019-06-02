@@ -7,8 +7,8 @@
             <div class="field">
               <div class="select">
                 <select class="select-dropdown" v-model="selectedCategory">
-                  <option value="">Choose All cards</option>
-                  <option v-for="(item,index) in links_category" :key="index" :value="item">{{ item }}</option>
+                  <option value="">Choose All Cards</option>
+                  <option v-for="(item, index) in links_category" :key="index" :value="item">{{ item }}</option>
                 </select>
               </div>
             </div>
@@ -56,7 +56,7 @@
       return {
         selectedCategory: '',
         isSearching: false,
-        linksData: links,
+        linksData: links
       }
     },
     watch: {
@@ -82,12 +82,16 @@
     computed: {
       links_category () {
         var all_categories = []
+        let startValue = links[0]
+        let newArr = []
 
-        links.map(function (currentValue, index, a) {
-          all_categories.push(currentValue.category)
+        links.forEach(item => {
+          if (newArr.indexOf(item.category) < 0) {
+            newArr.push(item.category);
+          }
         })
         
-        return all_categories
+        return newArr;
       },
       json: {
         get () {
