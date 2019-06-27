@@ -21,7 +21,7 @@ var links =
 		heading: "STF Vue Select",
 		url: "https://github.com/stfalcon-studio/stf-vue-select",
 		description: "<span>Customizable Vue Select Module.</span>",
-		cardImage: "vue-stf-select",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -45,7 +45,7 @@ var links =
 		heading: "Vue Meta",
 		url: "https://github.com/nuxt/vue-meta",
 		description: "<span>Manages the metadata by exporting as part of the component's data using the metaInfo property.</span>",
-		cardImage: "vue-meta",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -61,7 +61,7 @@ var links =
 		heading: "Vue Match Heights",
 		url: "https://github.com/samturrell/vue-match-heights",
 		description: "<span>Quick and easy method of setting Vue.JS element heights to be the same.</span>",
-		cardImage: "vue-match-heights",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -77,7 +77,7 @@ var links =
 		heading: "Vue Awesome Swiper",
 		url: "https://surmon-china.github.io/vue-awesome-swiper/",
 		description: "<span>Vue Carousel and Swiper Module.</span>",
-		cardImage: "vue-awesome-swiper",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -85,7 +85,7 @@ var links =
 		heading: "Vue Carousel",
 		url: "https://ssense.github.io/vue-carousel/",
 		description: "<span>A flexible, responsive, touch-friendly carousel for Vue.js.</span>",
-		cardImage: "vue-carousel",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -93,7 +93,7 @@ var links =
 		heading: "Vue Slick",
 		url: "https://github.com/staskjs/vue-slick",
 		description: "<span>A Vue.js component for the Slick carousel plugin and includes all the Slick options.</span>",
-		cardImage: "vue-slick",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -117,7 +117,7 @@ var links =
 		heading: "Vue JS Modal",
 		url: "https://github.com/euvl/vue-js-modal",
 		description: "<span>Creating Vue Modal with this module.</span>",
-		cardImage: "vue-js-modal",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -149,7 +149,7 @@ var links =
 		heading: "Vue Masonry CSS",
 		url: "https://github.com/paulcollett/vue-masonry-css",
 		description: "<span>A Vue.js masonry component module.</span>",
-		cardImage: "vue-masonry",
+		cardImage: "vue",
 		category: "Vue Module"
 	},
 	{
@@ -157,7 +157,7 @@ var links =
 		heading: "Vue History Mode",
 		url: "https://stackoverflow.com/questions/50857442/vue-cli-3-0-multi-page-setup-with-html5-history-mode",
 		description: "<span>Remove # from the URL.</span>",
-		cardImage: "vue-html5-history-mode",
+		cardImage: "vue",
 		category: "Vue Tips"
 	},
 	{
@@ -182,7 +182,7 @@ var links =
 		url: "https://builderx.io/",
 		description: "<span>A screen design desktop app which designs using Sketch and codes for you in React Native.</span>",
 		cardImage: "builderx",
-		category: "Desktop Application"
+		category: "Desktop/Web Application"
 	},
 	{
 		key: 'link24',
@@ -215,6 +215,54 @@ var links =
 		description: "<span>Find and register a domain name for your website.</span>",
 		cardImage: "dynadot",
 		category: "Domain Register"
+	},
+	{
+		key: 'link28',
+		heading: "Lastpass",
+		url: "https://builderx.io/",
+		description: "<span>Remembers and stores passwords and generates passwords.</span>",
+		cardImage: "lastpass",
+		category: "Desktop/Web Application"
+	},
+	{
+		key: 'link29',
+		heading: "HTML Entities Encoder / Decoder",
+		url: "https://www.web2generators.com/html-based-tools/online-html-entities-encoder-and-decoder",
+		description: "<span>Encode and decode a piece of text to its HTML equivalent</span>",
+		cardImage: "html-entities-encoder-decoder",
+		category: "Desktop/Web Application"
+	},
+	{
+		key: 'link30',
+		heading: "Free Vector Maps",
+		url: "https://mapsvg.com/maps/",
+		description: "<span>Download free SVG vector maps of any country of the World</span>",
+		cardImage: "mapsvg",
+		category: "Images"
+	},
+	{
+		key: 'link31',
+		heading: "Encode HTML symbols tutorial",
+		url: "https://blog.jetbrains.com/webstorm/2015/08/webstorm-11-eap-142-4148/",
+		description: "<span>PHPStorm can encode special symbols in HTML with HTML entities</span>",
+		cardImage: "phpstorm",
+		category: "PHPStorm"
+	},
+	{
+		key: 'link32',
+		heading: "Figma",
+		url: "https://www.figma.com/",
+		description: "<span>Design, prototype, and collaborate wireframes all in one place</span>",
+		cardImage: "figma",
+		category: "Desktop/Web Application"
+	},
+	{
+		key: 'link33',
+		heading: "Regexr",
+		url: "https://regexr.com/",
+		description: "<span>Online regular expression (REGEX) tester with syntax highlighting</span>",
+		cardImage: "regexr",
+		category: "Desktop/Web Application"
 	}
 ]
 
